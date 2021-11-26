@@ -1,90 +1,78 @@
 @media (max-width: 767px) {
-    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6 {
-        float: left;
-    }
-
     .col-sm-1 {
-        width: 16.66%;
+        flex: 16.66%;
     }
 
     .col-sm-2 {
-        width: 33.33%;
+        flex: 33.33%;
     }
 
     .col-sm-3 {
-        width: 50%;
+        flex: 50%;
     }
 
     .col-sm-4 {
-        width: 66.66%;
+        flex: 66.66%;
     }
 
     .col-sm-5 {
-        width: 83.33%;
+        flex: 83.33%;
     }
 
     .col-sm-6 {
-        width: 100%;
+        flex: 100%;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6 {
-        float: left;
-    }
-
     .col-md-1 {
-        width: 16.66%;
+        flex: 16.66%;
     }
 
     .col-md-2 {
-        width: 33.33%;
+        flex: 33.33%;
     }
 
     .col-md-3 {
-        width: 50%;
+        flex: 50%;
     }
 
     .col-md-4 {
-        width: 66.66%;
+        flex: 66.66%;
     }
 
     .col-md-5 {
-        width: 83.33%;
+        flex: 83.33%;
     }
 
     .col-md-6 {
-        width: 100%;
+        flex: 100%;
     }
 }
 
 @media (min-width: 992px) {
-    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6 {
-        float: left;
-    }
-
     .col-lg-1 {
-        width: 16.66%;
+        flex: 16.66%;
     }
 
     .col-lg-2 {
-        width: 33.33%;
+        flex: 33.33%;
     }
 
     .col-lg-3 {
-        width: 50%;
+        flex: 50%;
     }
     
     .col-lg-4 {
-        width: 66.66%;
+        flex: 66.66%;
     }
 
     .col-lg-5 {
-        width: 83.33%;
+        flex: 83.33%;
     }
 
     .col-lg-6 {
-        width: 100%;
+        flex: 100%;
     }
 }
 
@@ -94,8 +82,50 @@
     padding: 0;
 }
 
+body {
+    font-family: sans-serif;
+}
+
+#receips {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 section {
-    display: block;
-    height: 100%;
-    border: thick solid black;
+    background-color: lightgoldenrodyellow;
+    border: 1px solid black;
+}
+
+section h2 {    
+    font-size: 1.25em;
+    border: 1px solid black;
+    margin-top: -1px;
+    margin-right: -1px;
+    width: 140px;
+    text-align: center;
+    float: right;        
+}
+
+section p {
+    padding: 10px;
+    clear: both;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 1.75em;
+}
+
+.background-pale-violet-red {
+    background-color: palevioletred;
+}
+
+.background-pale-green {
+    background-color: palegreen;
+}
+
+.background-skyblue {
+    background-color: skyblue;
 }
