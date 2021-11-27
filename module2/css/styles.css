@@ -1,4 +1,4 @@
-@media (max-width: 767px) {
+@media (max-width: 767.99px) {
     .col-sm-1 {
         flex: 16.66%;
     }
@@ -24,7 +24,7 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991.99px) {
     .col-md-1 {
         flex: 16.66%;
     }
