@@ -1,122 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Module 3</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
-				rel="stylesheet" 
-				integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
-				crossorigin="anonymous"/>
-	<link rel="stylesheet" href="css/styles.css" />
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
-		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
-		crossorigin="anonymous">
-	</script>
+  <meta charset="utf-8">
+  <title>Module 4 Solution Starter</title>
+  <script>
+    var names = []; // DO NOT REMOVE
+  </script>
+  <script src="SpeakHello.js"></script>
+  <script src="SpeakGoodBye.js"></script>
+  <script src="script.js"></script>
 </head>
-<body>	
-	<header id="header-main">
-		<nav class="navbar navbar-light bg-light">
-			<div class="container-fluid">
-				<a class="navbar-brand" href="#">Food, LLC</a>
-				<button class="navbar-toggler collapsed d-md-none" type="button" data-bs-toggle="collapse" 
-								data-bs-target="#menu-items">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div id="menu-items" class="navbar-collapse collapse">
-					<ul class="navbar-nav">
-						<li class="nav-item">
-							<a class="nav-link" href="#section-chicken">Chicken</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#section-beef">Beef</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#section-sushi">Sushi</a>
-						</li>
-					</ul>
-				</div>								
-			</div>
-		</nav>
-	</header>
-	<main id="main" class="container-fluid">		
-		<h1 class="text-center">Our Menu</h1>
-		<div id="receips" class="row" >
-			<section id="section-chicken" class="col-md-6 col-lg-4">
-				<div>
-					<article>
-						<h3 class="text-center">Chicken</h3>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-							Donec sit amet turpis nec libero pellentesque interdum ut sed metus. 
-							Aliquam commodo ipsum pharetra metus mollis maximus. 
-							Vestibulum in fermentum lacus. Fusce id odio vel ex ultricies 
-							elementum. Sed mattis orci non tortor fringilla, eget vehicula 
-							arcu dignissim. Etiam feugiat ante sit amet ligula mollis, sed 
-							consectetur turpis sollicitudin. Aenean est lectus, ultrices ac 
-							nulla eget, euismod dapibus nisl.
-						</p>
-						<p>
-							Nullam tincidunt eu nisl id ornare. Quisque lobortis venenatis 
-							volutpat. Pellentesque ligula nisl, dapibus dapibus pretium vel, 
-							dapibus id leo. Maecenas vitae augue quis eros congue molestie. 
-							Sed tristique quis nunc ut tempus. Integer tristique tortor eget 
-							massa ultricies, condimentum tempus elit ultrices. Fusce lacinia 
-							odio sit amet euismod consequat. Suspendisse dignissim nisi neque, 
-							ut ultrices augue hendrerit nec. Donec sollicitudin in lorem 
-							vitae viverra. Donec congue tincidunt feugiat. Ut dictum sit amet 
-							felis vel imperdiet. Integer sodales iaculis est, eu tincidunt 
-							justo efficitur eget. Maecenas porta tellus a diam volutpat, 
-							non scelerisque enim bibendum. Sed facilisis urna in leo porttitor, 
-							sit amet pellentesque eros aliquam. Aenean at sapien magna. Sed 
-							at lectus tristique, consectetur elit sed, hendrerit nunc.
-						</p>						
-					</article>
-					<a class="btn btn-light d-md-none" href="#header-main">Back to Top</a>
-				</div>
-			</section>
-			<section id="section-beef" class="col-md-6 col-lg-4">
-				<div>
-					<article>
-						<h3 class="text-center">Beef</h3>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. In 
-							semper et turpis ac euismod. Pellentesque rhoncus tempor odio 
-							quis blandit. Cras tempus tincidunt quam vel hendrerit. Morbi 
-							eget pellentesque mi. Integer at lacus in neque sodales commodo. 
-							Maecenas sit amet ex a orci commodo dictum vitae sit amet 
-							quam. Sed vitae accumsan dolor. Mauris hendrerit vel metus 
-							quis mollis.
-						</p>
-					</article>
-					<a class="btn btn-light d-md-none" href="#header-main">Back to Top</a>
-				</div>
-			</section>
-			<section id="section-sushi" class="col-md-12 col-lg-4">
-				<div>
-					<article>
-						<h3 class="text-center">Sushi</h3>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-							Sed non eros a enim vulputate tincidunt. Praesent lacus enim, 
-							placerat quis ultrices vitae, tincidunt at lorem. Cras malesuada 
-							justo id velit tincidunt, at posuere dolor ullamcorper. Etiam 
-							mattis est sem, sit amet pharetra nibh maximus a. Aliquam non 
-							hendrerit ligula, a tempus orci. Nunc id efficitur orci, nec 
-							pulvinar nunc. Sed dictum varius felis, id dictum ligula 
-							accumsan ut. Mauris porta erat massa, at tempus est facilisis 
-							sed. Maecenas ullamcorper, dolor non fringilla mollis, ante mi 
-							convallis risus, quis hendrerit lorem eros sit amet elit. 
-							Vestibulum sit amet magna tempus dolor finibus porta in eu arcu. 
-							Phasellus finibus augue ex, non mattis turpis interdum ut.				
-						</p>
-					</article>		
-					<a class="btn btn-light d-md-none" href="#header-main">Back to Top</a>
-				</div>
-			</section>
-		</div>
-	</main>
+<body>
+  <h1>Module 4 Solution Starter</h1>
 </body>
 </html>
